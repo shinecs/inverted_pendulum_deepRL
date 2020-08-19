@@ -1,0 +1,6 @@
+<launch>
+    <rosparam command="load" file="$(find ai_pendulum)/config/cartpole_n1try_params.yaml" />
+    <!-- Launch the training system -->
+    <node pkg="ai_pendulum" name="cartpole_gym" type="cartpole3D_n1try_algorithm_with_rosparams.py" output="screen"/> -->
+</launch>
+
